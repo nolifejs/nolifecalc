@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #454545;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #343434;
+}
+
+form input {
+  color: #fff;
+  margin: 2px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #343434;
+}
+
+.result input {
+  width: 268px;
+  height: 80px;
+  color: #fff;
+  font-size: 45px;
+  border: none;
+}
+
+form input:hover {
+  cursor: pointer;
+  background-color: #454545;
+}
+
+.span-two {
+  width: 130px;
+}
